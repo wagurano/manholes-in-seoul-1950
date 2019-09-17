@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>경성부 맨홀 지도</name>
+    <description><![CDATA[1910~1950년대의 부설되어 지금까지 남아있는 맨홀을 맵핑합니다<br>맨홀을 찾은 사람들 : 김영준, 김하정, 정용부, 김재원]]></description>
+    <Style id="icon-1899-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>범례</name>
+      <Placemark>
+        <name>경수 양수기(1939)</name>
+        <description><![CDATA[숭인동 1062 건물 1층 현관 내 매설<br>매설 건축물 준공년도 1939년<br><br>발견자 : 김영준]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            127.0217973,37.575696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경수 양수기(1930년대)</name>
+        <description><![CDATA[북촌로11다길 37<br>1930년대 도시형 한옥 분양 시 매설 추정<br>발견자 : 김하정]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            126.9825132,37.5837246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경수 양수기(1930년대 초반)</name>
+        <description><![CDATA[충정로3가 3-99<br>1930년대 초반 매설 추정<br>주택은 1990년에 재건축<br><br>발견자 : 김영준]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            126.9598014,37.5642454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경수 양수기(불명)</name>
+        <description><![CDATA[황학동 1<br><br>발견자 : 김영준]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            127.0191916,37.570488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경수 양수기(불명)</name>
+        <description><![CDATA[통인동 149-5<br>건립년대 불명(1930년대 상수도 정비 시 부설 추정)<br>발견자 : 김하정]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            126.9706621,37.5788161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경수 양수기(불명)</name>
+        <description><![CDATA[후암동 447-19<br><br>발견자 : 김영준]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            126.9771209,37.5546889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경수 양수기(불명)</name>
+        <description><![CDATA[<img src="https://doc-04-48-mymaps.googleusercontent.com/untrusted/hostedimage/8j61572geo7b0h0ibtq1nf0uhc/k1cfblgeia1goauumd56tjrlh4/1568700000000/hR67RAs4Qg1CGkFu3wnO7m2Q3ezN9yvw/02491552220391708252/1AF2TALrJKe_PhXwuQYgwIuAywb7CHOAnl-9R_14hkp3tGn2AEXF_7T2Yy4TnT9gSjrd37qdJBHfM4oburZJRmoTai8iLchjXDbDApYNjd18eE-u2VgYwESD-CFPYnkpE-nnn19rmJl2iN1ZaE2Z-1ttVicWCHuEBd8RwsnE1j0vbvMiIO48xAZCYl5S-Vxr3OjToGNLMuPxomsB81RxLzipOiS8_oXFvphy3D7fLj7RUhKVKTrCKy9vlZ_7sHuphyDL-Omg01WLqzt07HRCu5jjYlfV1O3Xf-Q?fife" height="200" width="auto" /><br><br>서울 종로구 내자동 186-5<br>발견자 : 김하정]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-04-48-mymaps.googleusercontent.com/untrusted/hostedimage/8j61572geo7b0h0ibtq1nf0uhc/k1cfblgeia1goauumd56tjrlh4/1568700000000/hR67RAs4Qg1CGkFu3wnO7m2Q3ezN9yvw/02491552220391708252/1AF2TALrJKe_PhXwuQYgwIuAywb7CHOAnl-9R_14hkp3tGn2AEXF_7T2Yy4TnT9gSjrd37qdJBHfM4oburZJRmoTai8iLchjXDbDApYNjd18eE-u2VgYwESD-CFPYnkpE-nnn19rmJl2iN1ZaE2Z-1ttVicWCHuEBd8RwsnE1j0vbvMiIO48xAZCYl5S-Vxr3OjToGNLMuPxomsB81RxLzipOiS8_oXFvphy3D7fLj7RUhKVKTrCKy9vlZ_7sHuphyDL-Omg01WLqzt07HRCu5jjYlfV1O3Xf-Q?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            126.9706195,37.5747617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경수 양수기(불명)</name>
+        <description><![CDATA[한강로2가 157-5<br>건립년대 불명(1920~30년대 상수도 정비 시 부설 추정)<br>발견자 : 김영준]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            126.9695447,37.5297016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성부 1기 휘장</name>
+        <description><![CDATA[남영동 2<br>1920년대 초반 매설 추정<br>부근의 경성부영주택의 준공(1921)에 맞추어 부설된 것으로 판단<br><br>발견자 : 김영준]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            126.9728832,37.542494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성부 2기 휘장</name>
+        <description><![CDATA[남영동 2<br>1920년대 후반~30년대 매설 추정<br><br>발견자 : 김영준]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            126.972577,37.5435351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성부 2기 휘장</name>
+        <description><![CDATA[영등포동4가 57<br>경성부 토지구획정리사업 영등포지구 개발에 따른 1930년대 후반 매설 추정]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            126.9052381,37.5189307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성부 2기 휘장</name>
+        <description><![CDATA[영등포동4가 55<br>경성부 토지구획정리사업 영등포지구 개발에 따른 1930년대 후반 매설 추정<br>발견자 : 정용부]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            126.9054902,37.5183669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성부 2기 휘장</name>
+        <description><![CDATA[영등포동3가 8<br>경성부 토지구획정리사업 영등포지구 개발에 따른 1930년대 후반 매설 추정<br><br>발견자 : 김영준]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            126.9056827,37.5183426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성부 2기 휘장(방공수조)</name>
+        <description><![CDATA[방공수조防空水槽<br>1941~1945 매설 추정<br><br>발견자 : 김하정]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            126.9700866,37.5691395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성부 2기 휘장</name>
+        <description><![CDATA[츠요시노이에 뒷뜰로 이전<br>1920년대 중~후반 매설 추정<br><br>발견자 : 츠요시노이에]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            126.9781372,37.5505755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성부 2기 휘장(이전보관)(소방수조)</name>
+        <description><![CDATA[소방수조<br>1941~1945 매설 추정<br>現용산소방서로 이설 소장<br><br>발견자 : 김영준]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            126.9717076,37.5362745,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성부 2기 휘장(불량)</name>
+        <description><![CDATA[체부동 47-1<br>경복궁역 버스정류장 부근<br>상태 불량<br><br>발견자 : 김영준]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            126.9722414,37.5770195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성부 2기 휘장</name>
+        <description><![CDATA[<img src="https://doc-0o-48-mymaps.googleusercontent.com/untrusted/hostedimage/8j61572geo7b0h0ibtq1nf0uhc/s54sunv3fsdhv24egqbkrs2s3o/1568700000000/hR67RAs4Qg1CGkFu3wnO7m2Q3ezN9yvw/02491552220391708252/1AF2TALoeArIPr5cydJv1ZDyLB5wd3nS9ZW_43i_C37rTPDJx_uaSuOJ6Da0kaUckR3nchhP8_yOdtnQqddUOnFQIsJ6KQIi_FtFzrzkK7nOzMPUAwl-kaHpIhJLkZIbliXA-0rmUOBZacjvd-wOOAzuFWk3gtXw0uvLZpW8ssYEYfhDhM-2rp6xWGvW1M9hfKFmyjIjfgP8sNJho11QpRU9IOFpyLUkHOVKVEGlz7Ft99Oyq2v7M-D5SFgCo-oNVILwclIWEzbILing2k0K9Itbti72MKpKv6Q?fife" height="200" width="auto" /><br><br>서울 종로구 경운동 47-6 콘크리트 맨홀<br>발견자 : 김하정]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0o-48-mymaps.googleusercontent.com/untrusted/hostedimage/8j61572geo7b0h0ibtq1nf0uhc/s54sunv3fsdhv24egqbkrs2s3o/1568700000000/hR67RAs4Qg1CGkFu3wnO7m2Q3ezN9yvw/02491552220391708252/1AF2TALoeArIPr5cydJv1ZDyLB5wd3nS9ZW_43i_C37rTPDJx_uaSuOJ6Da0kaUckR3nchhP8_yOdtnQqddUOnFQIsJ6KQIi_FtFzrzkK7nOzMPUAwl-kaHpIhJLkZIbliXA-0rmUOBZacjvd-wOOAzuFWk3gtXw0uvLZpW8ssYEYfhDhM-2rp6xWGvW1M9hfKFmyjIjfgP8sNJho11QpRU9IOFpyLUkHOVKVEGlz7Ft99Oyq2v7M-D5SFgCo-oNVILwclIWEzbILing2k0K9Itbti72MKpKv6Q?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            126.9872971,37.5736161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성전기 휘장</name>
+        <description><![CDATA[신문로2가 1-34<br>발견자 : 김하정]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            126.9719452,37.5702055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성전기 휘장</name>
+        <description><![CDATA[충무로1가 26-1<br>CU중구명동점 앞<br><br>발견자 : 김영준]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            126.9835268,37.5606812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>경성전기 휘장</name>
+        <description><![CDATA[GS25 서울극장점 앞<br>발견자 : 김재원]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            126.9921889,37.5695435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>서울시 1기 휘장(소방수조)</name>
+        <description><![CDATA[서울시 1기 휘장 맨홀<br>한자로 소방수조消防水槽 라 표기<br>1940년대 후반 부설 추정<br><br>발견자 : 김영준]]></description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            127.0018898,37.57289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
